@@ -1,0 +1,48 @@
+h1 {
+    color: white;
+}
+
+#poisonsky {
+    background-color:lightskyblue;
+}
+
+a:link{
+    color:green;
+}
+
+a:visited {
+    color: green;
+  }
+
+  h2{
+    color:blue;
+  }
+
+  #doctor{
+    color: orange;
+  }
+
+  h3{
+    background-color: yellow;
+  }
+
+  .red {
+    color: red;
+  }
+
+  #green {
+    background-color: lightgreen;
+  }
+
+  h4 {
+    color: yellow;
+    background-color: darkgreen;
+  }
+
+  #yellow {
+    background-color: yellow;
+  }
+
+  a {
+    text-decoration: none;
+  }
