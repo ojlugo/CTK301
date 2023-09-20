@@ -1,0 +1,77 @@
+body {
+  background-color: #D7D4D4;
+  background-image: url(isu.png);
+}
+
+
+#specialid{
+    Color: orange;
+    font-weight: normal;
+    font-style: italic;
+    background-color:#D7D4D4;
+    width: 600px;
+}
+
+a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: #DFEA36;
+  }
+
+  #divct {
+    color: #222222;
+    background-color: #F86565;
+  }
+
+  .info {
+    color: #222222;
+    background-color: #A4E5FC;
+  }
+
+  h2{
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  h3 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  .rec {
+    color: #D8D6D6;
+    background-color: #2357C0;
+  }
+
+  .customtext {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .beth {
+    text-align: center;
+  }
+
+  .ruth {
+    text-align: justify;
+  }
+
+  .imagebox {
+    border: 40px solid black;
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px;
+    width: 800px;
+  }
+
+   nav {
+    background-color:#D7D4D4;
+    width: 330px
+  }
