@@ -1,0 +1,133 @@
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 850px;
+    border: 5px solid darkblue;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+body{
+    background-color: gray;
+}
+
+h1 {
+    background-image: linear-gradient(to bottom, #1877d7, #1967c1, #1757ab, #144896, #0e3981);
+    padding: 30px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+h1 a {
+    font-family: helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: lightblue;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #0e3981;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    border: 1px;
+    width: 203px;
+    margin: 3px;
+    background-color: blue;
+    display: inline-block;
+}
+
+nav li a {
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #1877d7, #1967c1, #1757ab, #144896, #0e3981);
+    font-family: Helvetica, arial, sans-serif;
+    }
+
+nav li a:hover {
+    background-color: #1635D7;
+    color: white;
+}
+header {
+    grid-column: span 12;
+  }
+  
+  nav {
+    grid-column: span 12;
+  }
+  
+  aside{
+    grid-column: span 4;
+    background-color: lightblue;
+    padding: 5px;
+  }
+
+  aside h2 {
+    font-family: helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border-bottom: solid 3px;
+    padding-bottom: 5px;
+    margin:20px;
+    color: darkblue; 
+  }
+
+  aside p {
+    text-align: justify;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  main h2 {
+    font-family: helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border-bottom: solid 3px;
+    padding-bottom: 5px;
+    margin:20px;
+    color: darkblue;
+    text-align: justify;
+  }
+   
+  main {
+    grid-column: span 8;
+    padding: 5px;
+  }
+
+  #floatimg {
+    float: left;
+    padding: 0;
+    margin: 10px;
+    border: solid darkblue 3px;
+   }  
+
+   #floating {
+    float: right;
+    padding: 0;
+    margin: 10px;
+    border: solid darkblue 3px;
+   }  
+
+  main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+  }
+
+  footer {
+    grid-column: span 12;
+    background-color: red;
+    border-top: solid darkblue 5px;
+    padding: 5px;
+  }
